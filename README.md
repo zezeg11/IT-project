@@ -87,5 +87,4 @@
       alt="Experience icon"
       class="icon"
       />
-      <h3>Experience</h3>
-      <p>2</p>
+      
