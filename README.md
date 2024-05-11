@@ -41,7 +41,7 @@
       <img src="./assets/profile-pic.png" alt="Phoebe Gallardo profile picture">
     </div>
     <div class="section__text">
-       <p class="section__text__p1">Hey, I'm Phoebe Gallardo</p>
+       <p class="section__text__p1">Hey, I'm </p>
        <h1 class="title">Phoebe Gallardo</h1>
        <p class="section__text__p2">Front-end Developer</p>
        <div class="btn-container">
