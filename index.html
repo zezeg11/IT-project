@@ -1,27 +1,71 @@
-<!DOCTYPE \cf4 html\cf2 >\cf5 \
-<html \cf7 lang\cf5 =\cf8 "en"\cf5 >\
-<head>\
-  <meta \cf7 charset\cf5 =\cf8 "UTF-8"\cf5 >\
-  <meta \cf7 http-equiv\cf5 =\cf8 "X-UA-Compatible"\cf5  \cf7 content\cf5 =\cf8 "IE=edge"\cf5 >\
-  <meta \cf7 name\cf5 =\cf8 "viewport"\cf5  \cf7 content\cf5 =\cf8 "width=device-width, initial-scale=1.0"\cf5 >\
-  <title>My Portfolio</title>\
-  <link \cf7 rel\cf5 =\cf8 "stylesheet"\cf5  \cf7 href\cf5 =\cf8 "style.css"\cf5 >\
-  <link \cf7 rel\cf5 =\cf8 "stylesheet"\cf5  \cf7 href\cf5 =\cf8 "mediaqueries.css"\cf5 >\
-</head>\
-<body>\
-  <nav \cf7 id\cf5 =\cf8 "desktop-nav"\cf5 >\
-    <div \cf7 class\cf5 =\cf8 "logo"\cf5 >John Doe</div>\
-    <div>\
-      <ul \cf7 class\cf5 =\cf8 "nav-links"\cf5 >\
-        <li><a \cf7 href\cf5 =\cf8 "#about"\cf5 >About</a></li>\
-        <li><a \cf7 href\cf5 =\cf8 "#experience"\cf5 >Experience</a></li>\
-        <li><a \cf7 href\cf5 =\cf8 "#projects"\cf5 >Projects</a></li>\
-        <li><a \cf7 href\cf5 =\cf8 "#contact"\cf5 >Contact</a></li>\
-      </ul>\
-    </div>\
-  </nav>\
-  <script \cf7 src\cf5 =\cf8 "script.js"\cf5 ></script>\
-</body>\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Phoebe Gallardo</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Phoebe Gallardo</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Phoebe Gallardo profile picture">
+    </div>
+    <div class="section__text">
+       <p class="section__text__p1">Hey, I'm Phoebe Gallardo</p>
+       <h1 class="title">Phoebe Gallardo</h1>
+       <p class="section__text__p2">Front-end Developer</p>
+       <div class="btn-container">
+        <button 
+        class="btn btn-color-2" 
+        onclick="window.open('./assets/resume.pdf')">
+          Download CV
+        </button>
+        <button 
+        class="btn btn-color-1" 
+        onclick="location.href='#contact'">
+          Contact Info
+        </button>
+       </div> 
+       <div id="social-container">
+          <a href="https://linkedin.com/" target="_blank">
+            <img src="./assets/linkedin-pic.png" alt="My LinkedIn profile" class="icon">
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <img src="./assets/github.png" alt="My Github profile" class="icon">
+          </a>
+       </div>
+    </div>   
+  </section>
+  <script src="script.js"></script>
+</body>
 </html>
-\f1\fs24 \cf9 \cb10 \outl0\strokewidth0 \strokec9 \
-}
