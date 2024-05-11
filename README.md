@@ -38,34 +38,54 @@
   </nav>
   <section id="profile">
     <div class="section__pic-container">
-      <img src="./assets/profile-pic copy.png" alt="Phoebe Gallardo profile picture">
+      <img src="./assets.png/profile-pic copy.png" alt="Phoebe Gallardo profile picture">
     </div>
     <div class="section__text">
-       <p class="section__text__p1">Hey, I'm Phoebe Gallardo</p>
+       <p class="section__text__p1">Hey, I'm</p>
        <h1 class="title">Phoebe Gallardo</h1>
        <p class="section__text__p2">Front-end Developer</p>
        <div class="btn-container">
         <button 
         class="btn btn-color-2" 
-        onclick="window.open('./assets/resume.pdf')">
+        onclick="window.open('./assets.png/resume.png')">
           Download CV
         </button>
         <button 
-        class="btn btn-color-1" 
-        onclick="location.href='#contact'">
+        class="btn btn-color-1" onclick="location.href='#contact'">
           Contact Info
         </button>
        </div> 
        <div id="social-container">
-          <a href="https://linkedin.com/" target="_blank">
-            <img src="./assets/linkedin-pic.png" alt="My LinkedIn profile" class="icon">
-          </a>
-          <a href="https://github.com/" target="_blank">
-            <img src="./assets/github.png" alt="My Github profile" class="icon">
-          </a>
+          <img 
+            src="./assets.png/linkedin-pic.png" 
+            alt="My LinkedIn profile" 
+            class="icon"
+            onclick="location.href='http://linkedin.com/'"
+          />
+            <img 
+            src="./assets.png/github.png" 
+            alt="My Github profile" 
+            class="icon"
+            onclick="location.href='http://github.com/'"
+          />
        </div>
     </div>   
   </section>
-  <script src="script.js"></script>
-</body>
-</html>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+     <div class="section__pic-container">
+      <img
+      src="./assets.png/about-pic.png"
+      alt="profile picture"
+      class="about-pic"
+      />
+    </div>
+    <div class="details-container">
+      <img src="./assets.png/experience-pic.png" 
+      alt="Experience icon"
+      class="icon"
+      />
+      <h3>Experience</h3>
+      <p>2</p>
