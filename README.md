@@ -57,7 +57,7 @@
        </div> 
        <div id="social-container">
           <img 
-            src="./assets.png/linkedin-pic.png" 
+            src="./assets.png/linkdin-pic.png" 
             alt="My LinkedIn profile" 
             class="icon"
             onclick="location.href='http://linkedin.com/'"
