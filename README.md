@@ -38,10 +38,10 @@
   </nav>
   <section id="profile">
     <div class="section__pic-container">
-      <img src="./assets/profile-pic.png" alt="Phoebe Gallardo profile picture">
+      <img src="./assets/profile-pic copy.png" alt="Phoebe Gallardo profile picture">
     </div>
     <div class="section__text">
-       <p class="section__text__p1">Hey, I'm </p>
+       <p class="section__text__p1">Hey, I'm Phoebe Gallardo</p>
        <h1 class="title">Phoebe Gallardo</h1>
        <p class="section__text__p2">Front-end Developer</p>
        <div class="btn-container">
